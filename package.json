@@ -1,6 +1,6 @@
 {
   "name": "webpack-svgstore-plugin",
-  "version": "6.0.0-algotec.5",
+  "version": "6.0.0-algotec.6",
   "description": "Webpack svgstore plugin",
   "main": "src/svgstore.js",
   "scripts": {
