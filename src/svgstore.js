@@ -144,10 +144,10 @@ class WebpackSvgStore {
         );
       }
     );
-
-    compiler.hooks.done.tap(WebpackSvgStore.name, () => {
-      this.tasks = {};
-    });
+      // currently disabled the cleanup, due to webpack-dev-server not working with in 2nd+ builds
+    // compiler.hooks.done.tap(WebpackSvgStore.name, () => {
+    //   this.tasks = {};
+    // });
   }
 }
 
